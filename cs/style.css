@@ -1,0 +1,276 @@
+/* Адаптация для планшетов и телефонов */
+
+@media (max-width: 1024px) {
+  /* Шапка */
+  header {
+    padding: 0 10px;
+  }
+
+  /* Навигация */
+  nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  nav a:hover {
+    background-color: #f5f5f5;
+  }
+
+  /* Контент */
+  main {
+    padding: 20px 0;
+  }
+
+  #hero {
+    padding: 20px 0;
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  #hero button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+
+  #features {
+    padding: 20px 0;
+  }
+
+  #features h2 {
+    font-size: 1.6rem;
+  }
+
+  #features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #features li {
+    font-size: 1.2rem;
+  }
+
+  #testimonials {
+    padding: 20px 0;
+  }
+
+  #testimonials h2 {
+    font-size: 1.6rem;
+  }
+
+  .testimonial {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f5f5f5;
+  }
+
+  .testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .testimonial .author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  /* Футер */
+  footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  footer h2 {
+    font-size: 1.8rem;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+}
+/* Адаптация для телефонов */
+
+@media (max-width: 768px) {
+  /* Навигация */
+  nav ul {
+    gap: 10px;
+  }
+
+  /* Контент */
+  #hero h1 {
+    font-size: 1.6rem;
+  }
+
+  #hero p {
+    font-size: 1.1rem;
+  }
+
+  #features h2 {
+    font-size: 1.4rem;
+  }
+
+  #features li {
+    font-size: 1.1rem;
+  }
+
+  #testimonials h2 {
+    font-size: 1.4rem;
+  }
+
+  .testimonial p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial .author {
+    font-size: 1.1rem;
+  }
+
+  /* Футер */
+  footer p {
+    font-size: 1.1rem;
+  }
+}
+/* Темная тема */
+
+body {
+  background-color: #404040;
+  color: #fff;
+}
+
+header {
+  background-color: #5a5a5a;
+}
+
+nav ul {
+  background-color: #333;
+}
+
+nav a {
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #252525;
+}
+
+#hero {
+  background-color: #333;
+}
+
+#hero h1 {
+  color: #efd59b;
+}
+
+#hero p {
+  color: #a0a0a0;
+}
+
+#hero button {
+  background-color: #ab8383;
+  color: #333;
+}
+
+#features {
+  background-color: #333;
+}
+
+#features h2 {
+  color: #eacdcd;
+}
+
+#features ul {
+  background-color: #674d4d;
+}
+
+#features li {
+  color: #fff;
+}
+
+#testimonials {
+  background-color: #333;
+}
+
+#testimonials h2 {
+  color: #fff;
+}
+nav ul {
+  text-align: right;
+}
+
+.testimonial {
+  background-color: #333;
+}
+
+.testimonial p {
+  color: #fff;
+}
+
+.testimonial .author {
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+#testimonials {
+  padding: 20px 0;
+}
+
+#testimonials h2 {
+  font-size: 1.6rem;
+}
+
+.testimonial {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #787878;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.testimonial .author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
